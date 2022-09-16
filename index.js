@@ -10,10 +10,10 @@ let sql;
 
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "bketen",
+    host: "sql11.freemysqlhosting.net",
+    user: "sql11520252",
     password: "1234",
-    database: "gunluk_menu"
+    database: "dVEC1Jraix"
   });
 
   app.use(bodyParser.urlencoded({ extended: true }));
