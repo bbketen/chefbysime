@@ -12,8 +12,8 @@ let sql;
 var con = mysql.createConnection({
     host: "sql11.freemysqlhosting.net",
     user: "sql11520252",
-    password: "1234",
-    database: "dVEC1Jraix"
+    password: "dVEC1Jraix",
+    database: "sql11520252"
   });
 
   app.use(bodyParser.urlencoded({ extended: true }));
